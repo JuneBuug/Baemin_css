@@ -79,6 +79,7 @@ li{
 	border-bottom: 4px solid black;
 	height: 30px;
 	padding-bottom: 4px;
+	width: 420px;
 }
 
 #announce{
@@ -127,17 +128,91 @@ li{
 
 }
 
-.content .row .content_column span{
+#download{
+	margin-right: 4px;
+	border: 1px solid #222;
+	font-size: 11px;
+	padding: 7px 10px 4px;
+	background-color: #222;
+	color : #fff;
+	float: right
+}
+
+#download:hover{
+	background-color: #ff4200;
+	border: 1px solid #ff4200;
+	color: #fff;
+}
+
+span.more{
 	float:right;
 	border: 1px solid #cfcece;
 	font-size: 11px;
 	padding: 7px 10px 4px;
 }
 
+span.left_arrow{
+	float:right;
+	padding: 0px;
+	border: 1px solid #cfcece;
+	font-size: 11px;
+	width: 26px;
+	height: 26px;
+	background-image: url(https://img.woowahan.com/www/title/tl-buttons.png);
+	background-repeat: no-repeat;
+	background-position: -300px -650px;
+	text-indent: -9999px;
+}
+
+span.right_arrow{
+	float:right;
+	padding: 0px;
+	border: 1px solid #cfcece;
+	font-size: 11px;
+	width: 26px;
+	height: 26px;
+	background-image: url(https://img.woowahan.com/www/title/tl-buttons.png);
+	background-repeat: no-repeat;
+	background-position: 0px -700px;
+	text-indent: -9999px;
+}
+
+span.left_arrow:hover, span.right_arrow:hover{
+	border: 1px solid #999;
+	color: #000;
+}
 .column_detail{
 	position: relative;
 }
 
+.column_img{
+	position: relative;
+	margin-top: 4px;
+	width:418px;
+	height:118px;
+	border : 1px solid #c5c5c5;
+}
+
+.column_img img {
+	position: absolute;
+	right: 10px;
+	bottom: 2px;
+	max-width: 95%;
+}
+
+.detail_img{
+	background-image: url(https://img.woowahan.com/www/temp/bnr-txt-woowa01.gif);
+	float: left;
+  width: 70%;
+	height:118px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  text-indent: -9999px;
+}
+
+.payment{
+  background-image: url(https://img.woowahan.com/www/temp/bnr-txt-baro01.gif);
+}
 .column_detail p {
 	font-size:11px;
 	color: #797979;
@@ -148,9 +223,18 @@ li{
 	margin-bottom: 10px;
 }
 
+.column_detail span{
+	height: 114px;
+}
+
+.woowa1{
+	    background-image: url(https://img.woowahan.com/www/temp/bnr-txt-woowa01.gif);
+}
+
 .row{
 	clear:both;
 }
+
 table{
 	margin-top:70px;
 	margin-bottom:40px;
@@ -246,4 +330,9 @@ background-image: url(https://img.woowahan.com/www/main/game1.png);
 	margin:2.5%;
 	font-size: 11px;
 	color: #797979;
+}
+
+footer{
+	border-top: 1px solid #e5e5e5;
+	clear: both;
 }
