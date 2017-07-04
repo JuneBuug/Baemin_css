@@ -28,17 +28,10 @@ li{
 	border: 1px solid #c5c5c5;
 	line-height: 39px;
 	margin-bottom: 10px;
+	font-size: 12px;
+	font-weight: bold;
 }
 
-.address_bar span{
-	font-size: 12px;
-	font-style: bold;
-}
-
-.search_bar span{
-	font-size: 12px;
-	color: #797979;
-}
 
 .search_bar{
 	padding-left:10px;
@@ -49,6 +42,8 @@ li{
 	width: 400px;
 	border: 1px solid #c5c5c5;
 	margin-bottom: 10px;
+	font-size: 12px;
+	color: #797979;
 }
 
 .icon{
@@ -71,7 +66,7 @@ li{
 
 .content{
 	width: 980px;
-	margin : 0 230px 0 230px;
+	margin : 0 142px 0 142px;
 	padding: 0 10px 0 10px;
 }
 
@@ -239,10 +234,10 @@ background-image: url(https://img.woowahan.com/www/main/baro.png);
 background-image: url(https://img.woowahan.com/www/main/nothing.png);
 }
 .hot{
-	background-image: url(http://file.smartbaedal.com/usr/promtxt/2017/6/30/201412050008_175316.png);	
+	background-image: url(http://file.smartbaedal.com/usr/promtxt/2017/6/30/201412050008_175316.png);
 }
 .game{
-background-image: url(https://img.woowahan.com/www/main/game1.png);	
+background-image: url(https://img.woowahan.com/www/main/game1.png);
 }
 
 .footer{
@@ -252,4 +247,3 @@ background-image: url(https://img.woowahan.com/www/main/game1.png);
 	font-size: 11px;
 	color: #797979;
 }
-
