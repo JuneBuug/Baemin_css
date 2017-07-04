@@ -1,0 +1,255 @@
+header, table, footer{
+	width: 980px;
+	margin: auto;
+
+}
+li{
+	display: inline;
+	font-size: 12px;
+	color: #797979;
+}
+
+.login_menu{
+	float:right;
+}
+
+.logo{
+	clear: both;
+	margin-bottom:20px;
+	text-align: center;
+}
+
+.address_bar{
+	padding-left:10px;
+	margin-left:200px;
+	float: left;
+	height: 39px;
+	width: 185px;
+	border: 1px solid #c5c5c5;
+	line-height: 39px;
+	margin-bottom: 10px;
+}
+
+.address_bar span{
+	font-size: 12px;
+	font-style: bold;
+}
+
+.search_bar span{
+	font-size: 12px;
+	color: #797979;
+}
+
+.search_bar{
+	padding-left:10px;
+	line-height: 39px;
+	margin-left:10px;
+	float: left;
+	height: 39px;
+	width: 400px;
+	border: 1px solid #c5c5c5;
+	margin-bottom: 10px;
+}
+
+.icon{
+	float:right;
+	height:39px;
+	width:39px;
+}
+.category{
+	clear: both;
+	margin-top:10px;
+	margin-left:200px;
+}
+
+.category span{
+	float:left;
+	font-size:12px;
+	font-weight:bold;
+	line-height: 19px;
+}
+
+.content{
+	width: 980px;
+	margin : 0 230px 0 230px;
+	padding: 0 10px 0 10px;
+}
+
+.content_column{
+	width: 40%;
+	float:left;
+	margin: 5%;
+}
+.column_title{
+	border-bottom: 4px solid black;
+	height: 30px;
+	padding-bottom: 4px;
+}
+
+#announce{
+	height: 14px;
+    margin-top: 6px;
+    background-image: url(https://img.woowahan.com/www/title/tl-labels.png);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    width: 50px;
+    background-position: -300px -300px;
+    float:left;
+}
+
+#introduction{
+	height: 14px;
+    margin-top: 6px;
+    background-image: url(https://img.woowahan.com/www/title/tl-labels.png);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    width: 87px;
+    background-position: -200px -350px;
+    float:left;
+}
+
+#charity{
+	height: 14px;
+    margin-top: 6px;
+    background-image: url(https://img.woowahan.com/www/title/tl-labels.png);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    width: 102px;
+    background-position: 0 -400px;
+    float:left;
+}
+
+#tip{
+
+	height: 14px;
+    margin-top: 6px;
+    background-image: url(https://img.woowahan.com/www/title/tl-labels.png);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    width: 62px;
+    background-position: -300px -350px;
+    float:left;
+
+}
+
+.content .row .content_column span{
+	float:right;
+	border: 1px solid #cfcece;
+	font-size: 11px;
+	padding: 7px 10px 4px;
+}
+
+.column_detail{
+	position: relative;
+}
+
+.column_detail p {
+	font-size:11px;
+	color: #797979;
+}
+
+.column_detail h5{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.row{
+	clear:both;
+}
+table{
+	margin-top:70px;
+	margin-bottom:40px;
+	border-spacing: 30px;
+}
+td{
+	width:130px;
+	height:130px;
+	background-position:center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	font-size: 12px;
+	color: #797979;
+}
+.one{
+background-image: url(https://img.woowahan.com/www/main/cate01.png);
+}
+.two{
+background-image: url(https://img.woowahan.com/www/main/cate02.png);
+}
+.three{
+background-image: url(https://img.woowahan.com/www/main/cate03.png);
+}
+.four{
+background-image: url(https://img.woowahan.com/www/main/cate04.png);
+}
+.five{
+background-image: url(https://img.woowahan.com/www/main/cate05.png);
+}
+.six{
+background-image: url(https://img.woowahan.com/www/main/cate06.png);
+}
+.seven{
+background-image: url(https://img.woowahan.com/www/main/cate07.png);
+}
+.eight{
+background-image: url(https://img.woowahan.com/www/main/cate08.png);
+}
+.nine{
+background-image: url(https://img.woowahan.com/www/main/cate09.png);
+}
+.ten{
+background-image: url(https://img.woowahan.com/www/main/cate10.png);
+}
+.one:hover{
+background-image: url(https://img.woowahan.com/www/main/cate01-over.png);
+}
+.two:hover{
+background-image: url(https://img.woowahan.com/www/main/cate02-over.png);
+}
+.three:hover{
+background-image: url(https://img.woowahan.com/www/main/cate03-over.png);
+}
+.four:hover{
+background-image: url(https://img.woowahan.com/www/main/cate04-over.png);
+}
+.five:hover{
+background-image: url(https://img.woowahan.com/www/main/cate05-over.png);
+}
+.six:hover{
+background-image: url(https://img.woowahan.com/www/main/cate06-over.png);
+}
+.seven:hover{
+background-image: url(https://img.woowahan.com/www/main/cate07-over.png);
+}
+.eight:hover{
+background-image: url(https://img.woowahan.com/www/main/cate08-over.png);
+}
+.nine:hover{
+background-image: url(https://img.woowahan.com/www/main/cate09-over.png);
+}
+.ten:hover{
+background-image: url(https://img.woowahan.com/www/main/cate10-over.png);
+}
+
+
+.baro{
+background-image: url(https://img.woowahan.com/www/main/baro.png);
+}
+.nothing{
+background-image: url(https://img.woowahan.com/www/main/nothing.png);
+}
+.hot{
+	background-image: url(http://file.smartbaedal.com/usr/promtxt/2017/6/30/201412050008_175316.png);	
+}
+.game{
+background-image: url(https://img.woowahan.com/www/main/game1.png);	
+}
+
+.footer{
+	float:left;
+	width:45%;
+	margin:2.5%;
+	font-size: 11px;
+	color: #797979;
+}
+
